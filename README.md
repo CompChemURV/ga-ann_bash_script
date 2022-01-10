@@ -1,4 +1,6 @@
-# Python application together with the corresponding supercomputing job-script, written in a Unix shell and command language (portable to SLURM-based environment), have been developed to achieve more robust, user-friendly code performance of the GA-ANN ReaxFF parametrization tool.
+# Unix shell and command language application for GA-ANN ReaxFF parametrization tool
+
+Python application together with the corresponding supercomputing job-script, written in a Unix shell and command language (portable to SLURM-based environment), have been developed to achieve more robust, user-friendly code performance of the GA-ANN ReaxFF parametrization tool.
 
 The new algorithm contains the following novelty and improvements:
 1) The new code allowed us to combine all processes into one. This includes control of the input; manual choice of the optimization scheme used in ReaxFF (IOPT = 0, 3 and 4 which allows to use all the training set parameters including bond distances and angles for optimization); dynamical refitting of the ReaxFF parameters in case of IOPT = 4; Verification and Analysis of the ReaxFF output. 
